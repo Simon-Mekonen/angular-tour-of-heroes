@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Hero } from '../types/hero.types';
-import { HeroService } from '../hero.service';
+import { HeroService } from '../services/hero.service';
 
 @Component({
   selector: 'app-heroes',
