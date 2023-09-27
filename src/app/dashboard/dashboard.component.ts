@@ -20,7 +20,7 @@ export class DashboardComponent {
     this.heroService.getHeroes()
       .subscribe(heroes => this.heroes =
         heroes
-          .sort((a, b) => a.rank - b.rank)
+          .sort((a, b) => b.power - a.power)
           .slice(0, 4));
   }
 
